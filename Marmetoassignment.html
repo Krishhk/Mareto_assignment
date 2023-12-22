@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Showcase</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <h1 class="center">SELECT YOUR CHOICE</h1>
+
+        <div class="tabs">
+            <button onclick="showProducts('Men')" class="men">Men</button>
+            <button onclick="showProducts('Women')" class="women">Women</button>
+            <button onclick="showProducts('Kids')" class="men">Kids</button>
+        </div>
+
+        <div id="menProducts" class="products"></div>
+        <div id="womenProducts" class="products" style="display: none;"></div>
+        <div id="kidsProducts" class="products" style="display: none;"></div>
+    </div>
+
+    <script src="script.js" type="module" defer></script>
+</body>
+
+</html>
